@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*header part css*/
+.header-container{
+    background-color: cadetblue;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid coral;
+    position: fixed;
+    width: 100%;
+}
+.branding img{
+    height: 10vh;
+    width: 10vh;
+    padding: 1em;
+}
+.nav-bar ul{
+    list-style-type: none;
+}
+.nav-bar ul li{
+    display: inline;
+    padding: 1em;
+}
+.nav-bar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.nav-bar ul li a:hover{
+    color: coral;
+    border-bottom: 1px solid coral;
+    padding-bottom: 10px;
+
+}
+
+.signup{
+    background-color: coral;
+    color: floralwhite;
+    border: 2px solid floralwhite;
+    width: 10vw;
+    padding: 10px;
+    border-radius: 1em;
+    align-items: center;
+
+}
+.signup:hover{
+    cursor: pointer;
+    background-color: rgb(255, 229, 80);
+    color: rgb(228, 24, 24);
+}
+.hero-unit-container{
+    background: url('../images/bg1.jpeg') no-repeat;
+    height: 120vh;
+    width: 300vh;
+    text-align: center;
+    
+}
+.hero-unit-mask{
+    height: 80vh;
+    background-color:rgb(0,0,0,0.2);
+    opacity: 0.4;
+}
+.hero-unit-mask h1{
+    margin:0;
+    font-size: 3em;
+    color: black;
+    padding-top:25vh; 
+}
+.hero-unit-mask a{
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    padding: 1em;
+    border-radius: 5px;
+    display: block;
+    width: 10vw;
+    margin: 1em auto;
+}
+.hero-unit-mask a:hover{
+    background-color: white;
+    color: coral;
+}
+.paper-flex-container{
+    display: flex;
+    flex-direction: column;
+}
+.paper-flex-container h1{
+    font-size: 1em;
+    color: grey;
+    margin: 1em auto;
+
+}
+.paper{
+    background-color: white;
+    box-shadow: 5px 5px 20px black;
+    padding: 1em;
+    text-align: center;
+
+}
+.paper-flex-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.paper h2{
+    font-size: 1em;
+    color: black;
+
+}
+.paper img{
+    height: 200px;
+    width:200px;
+}
+.paper p{
+    font-size: 0.8em;
+    color: grey;
+    font-weight: 500;
+}
+.footer{
+    margin-top: 1em;
+    height: 10vh;
+    background-color: rgb(255, 60, 0);
+    border-top: 1em solid rgb(255, 214, 80);
+    color: black;
+    text-align: center;
+    padding-top: 2em;
+
+}
